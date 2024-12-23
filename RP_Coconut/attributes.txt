@@ -1,0 +1,4 @@
+sid=1
+sigid=100
+public_attribute=Sherlock Holmes,M,35
+private_attribute=100000,B+,Detective,Bakerstreet
