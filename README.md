@@ -9,7 +9,9 @@ Setting Up the Project
 
 Remove the previous build files:
 
+```
 rm -rf build
+```
 
 Compile and deploy the smart contracts:
 
