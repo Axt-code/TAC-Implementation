@@ -13,7 +13,7 @@ rm -rf build
 ### Compile and deploy the smart contracts:
 
 ```
-truffle migrate --reset --compile-all > SC_output.txt
+truffle migrate --reset --compile-all 
 ```
 
 ### Update the 2_deploy_contract.js file in the /migrations/ directory:
@@ -21,6 +21,10 @@ truffle migrate --reset --compile-all > SC_output.txt
   Set Issuer0Address to the first address from Ganache.
 
   Set ServiceProviderAddress to the second-to-last address from Ganache.
+  
+### Update the constants.py file:
+
+  change TOTAL_ISSUERS and THRESHOLD_ISSUERS to required value.
 
 ### Running the Trusted Third Party (TTP)
 
